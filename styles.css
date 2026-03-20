@@ -1,0 +1,29 @@
+:root {
+  --white: hsl(0, 0%, 100%);
+  --light-gray: hsl(0, 0%, 85%);
+  --gray: hsl(0, 0%, 40%);
+  --dark-gray: hsl(0, 0%, 15%);
+  --black: hsl(0, 0%, 0%);
+}
+
+* {
+  color: var(--white);
+  font-family: monospace;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  background-color: var(--black);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+#svg-image {
+  width: 100vw;
+  height: 100vh;
+}
