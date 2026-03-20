@@ -7,8 +7,6 @@
 }
 
 * {
-  color: var(--white);
-  font-family: monospace;
   box-sizing: border-box;
 }
 
@@ -16,11 +14,14 @@ body {
   padding: 0;
   margin: 0;
   background-color: var(--black);
+  color: var(--white);
   display: flex;
   justify-content: center;
   align-items: center;
   width: 100vw;
   height: 100vh;
+  font-size: 1rem;
+  font-family: monospace;
 }
 
 #svg-image {
