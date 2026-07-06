@@ -9,3 +9,4 @@ svgPath.setAttributeNS(null, 'stroke-width', `${lineWidth}px`);
 svgPath.setAttributeNS(null, 'stroke-linecap', 'round');
 svgPath.setAttributeNS(null, 'stroke-linejoin', 'round');
 svgImage.appendChild(svgPath);
+//# sourceMappingURL=index.js.map
