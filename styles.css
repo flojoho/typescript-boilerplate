@@ -8,6 +8,8 @@
 
 * {
   box-sizing: border-box;
+  font-size: 1rem;
+  font-family: monospace;
 }
 
 body {
@@ -20,8 +22,6 @@ body {
   align-items: center;
   width: 100vw;
   min-height: 100vh;
-  font-size: 1rem;
-  font-family: monospace;
 }
 
 #svg-image {
